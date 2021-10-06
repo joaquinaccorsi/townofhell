@@ -1,2 +1,15 @@
-body {background-color: #D2AEEC;}
-.masthead {background-color: #D2AEEC;}
+.navbar {font-family: 'Montserrat', sans-serif;}
+.navbar img {height: 80px; width: 80px;}
+body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
+section#residents {display: flex; flex-wrap: wrap;margin: 10px;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
+#residents img {height: 250px; width: 320px;}
+section#releases {display: flex; flex-wrap: wrap;margin: 10px;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
+section#eventos {display: flex; flex-wrap: wrap;margin: 10px;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
+section#team {display: flex;flex-wrap: wrap; margin: 10px;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
+.team-member img {height: 250px;width: 250px;}
+.timeline-image img {height: 160px;width: 180px; border-radius: 180px;padding: auto;}
+section#contact {display: flex; flex-wrap: wrap; margin: 10px;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #ffffff;}
+footer {display: flex; flex-wrap: wrap; margin: 10px;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #D2AEEC;}
+.masthead {background-color: #D2AEEC; display: flex; flex-wrap: wrap;margin: 20px;font-family: 'Montserrat', sans-serif;padding: 25px;}
+.timeline h4 {color: black;}
+li div.timeline-image {background-color: #D2AEEC;}
