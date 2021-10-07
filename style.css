@@ -1,5 +1,6 @@
 .navbar {font-family: 'Montserrat', sans-serif;}
 .navbar img {height: 80px; width: 80px;}
+ul {}
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
 section#residents {display: flex; flex-wrap: wrap;margin: 10px;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 #residents img {height: 250px; width: 320px;}
