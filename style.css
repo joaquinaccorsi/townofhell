@@ -1,47 +1,24 @@
 .navbar {font-family: 'Montserrat', sans-serif;}
 .navbar img {height: 80px; width: 80px;}
 #residents h2,
-#residents h3 {margin: 0px 0px 0px 35px;}
-div.col-sm-4>img { height: 160px;width: 160px}
+#residents h3 {margin: 0px 0px 0px 0px;}
+div.col-sm-12>img { height: 160px;width: 160px;border:2px solid white}
 .row#flyer {padding: 10px 0px 30px 170px;}
 .row#rowresidents{padding: 70px 0px 70px 0px;}
-.wrapper {
-    align-items: center;
-    max-height: 150px;
-    width: 100%;
-    padding: 10px 0px 0px 0px;
-    border: 3px solid #D2AEEC;
-    display: flex;
-    overflow-x: auto; 
-}
 
-.wrapper::-webkit-scrollbar {
-    width: 0px;
-}
+.offcanvas-top {height: 90vh;}
 
-
-.wrapper .item{
-    height: 115px;    
-    min-width: 80px;
-    line-height: 110px;
-    text-align: center;
-    background-color: #D2AEEC;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 12px;
-
-}
-.offcanvas-top {background-color: white;height: 90vh;}
-
-.offcanvas-header {background-color: white; text-align: center;}
-.offcanvas-body {background-color: #D2AEEC;}
-.btn {padding-bottom: 65px;
-background-color: white;
-font-weight: 300;
-margin: 0px 0px -8px 0px;
-width: 65px;
-border-radius: 0px;}
+.offcanvas-header {background-color: #D2AEEC; text-align: center;}
+div.offcanvas-header>img {height: 80px;width: 80px;}
+.offcanvas-body {background-color: white;}
+div.offcanvas-body>div.row>div.col-sm-6>img {height: 170px; width: 280px;}
+.btn {padding-bottom: 20px; height: 30px;
+background-color: #D2AEEC;
+font-weight: bold;
+margin: 0px 0px 0px 0px;
+width: 90px;
+border-radius: 0px;
+vertical-align: bottom;}
 h4 {font-size: 10px;}
 
 h5 {font-size: 60px;}
@@ -49,11 +26,12 @@ h5 {font-size: 60px;}
 
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
 section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
-#residents img {height: 250px; width: 320px;}
+div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;}
 section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
-.team-member img {height: 250px;width: 250px;}
+.team-member h4 {font-size: large;}
+.team-member img {height: 200px;width: 200px; border: 2px solid white;}
 .timeline-image img {height: 160px;width: 180px; border-radius: 180px;padding: auto;}
 section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #ffffff;}
 footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #D2AEEC;}
@@ -67,4 +45,6 @@ li div.timeline-image {background-color: #D2AEEC;}
 @media (max-width: 768px){
     .row#flyer {
     padding: 10px 0px 0px 90px;}
+    div.carousel-item>img {height: 280px;}
+
 }
