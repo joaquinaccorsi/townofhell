@@ -35,27 +35,72 @@
         </div>
     </header>
     <section id="residents">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
+        <div class="container-fluid">
+            <div class="row justify-content-center" id="rowresidents">
+                <div class="col-sm-4 align-self-center">
                     <h2 class="text-uppercase section-heading">RESIDENTS</h2>
                     <h3 class="text-muted section-subheading">ARTISTAS TOWN OF HELL</h3>
                 </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <ul>
-                        <li><img src="assets/img/RESIDENTS/INDIGO.jpg" alt="perfil">
-                          <h4 class="section-heading">INDIGO</h4></li>                                                   
-                        <li><img src="assets/img/RESIDENTS/&REU.jpg" alt="perfil">
-                          <h4 class="section-heading">&REU</h4></li>                   
-                
-                 
-                        <li><img src="assets/img/RESIDENTS/moon.jpg" alt="perfil">
-                         <h4 class="section-heading">møøn</h4></li>
-                    </ul>
-                    
-                </div>
+                <div class="col-sm-4 align-self-end">            
+                    <div class="wrapper">                                   
+                        <div class="item">
+                            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasINDIGO" aria-controls="offcanvasTopINDIGO"><h4>INDIGO</h4></button>
+
+                            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasINDIGO" aria-labelledby="offcanvasINDIGO">
+                                <div class="offcanvas-header">
+                                 <h5 id="offcanvasINDIGO">INDIGO</h5>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="col-sm-6">
+                                        <img src="assets/img/RESIDENTS/INDIGO.jpg" alt="perfil">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        BIO
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                   
+                        <div class="item">
+                            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasREU" aria-controls="offcanvasREU"><h4>&REU</h4></button>
+
+                            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasREU" aria-labelledby="offcanvasREU">
+                                <div class="offcanvas-header">
+                                  <h5 id="offcanvasREU">&REU</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="col-sm-6">
+                                        <img src="assets/img/RESIDENTS/&REU.jpg" alt="perfil">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        BIO
+
+                                    </div>     
+                                </div>
+                            </div>
+                        </div>                                                    
+                        <div class="item">
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasmoon" aria-controls="offcanvasmoon"><h4>moon</h4></button>
+
+                            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasmoon" aria-labelledby="offcanvasmoon">
+                                <div class="offcanvas-header">
+                                  <h5 id="offcanvasmoon">moon</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="col-sm-6">
+                                        <img src="assets/img/RESIDENTS/moon.jpg" alt="perfil">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        BIO
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>                                        
             </div>
         </div>
     </section>
@@ -66,6 +111,23 @@
                     <h2 class="text-uppercase section-heading">releases</h2>
                     <h3 class="text-muted section-subheading">TRABAJANDO EN ÉSTO</h3>
                 </div>     
+            </div>
+            <div class="row justify-content-around" id="flyer">
+                <div class="col-sm-4 align-self-center">
+                    <h3>DECLINES EP</h3>
+                    <img src="assets/img/TRACKS/declines.png" alt="flyer">
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>MY SICK TRAX</h3>
+                    <img src="assets/img/TRACKS/mysicktrack.png" alt="flyer">
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>LOV U BITCH</h3>
+                    <img src="" alt="">
+
+                </div>                
             </div>
         </div>    
     </section>
@@ -155,7 +217,7 @@
                             </div>
                             <div class="w-100"></div>
                             <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" style="background-color: #D2AEEC;"id="sendMessageButton" type="submit">Enviar Mensaje</button>
+                                <div id="success"></div><button class="btn btn-xl text-uppercase" style="background-color: #D2AEEC;"id="sendMessageButton" type="submit">Enviar Mensaje</button>
                             </div>
                         </div>
                     </form>
