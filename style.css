@@ -61,3 +61,10 @@ footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;pad
 .timeline h4 {color: black;}
 li div.timeline-image {background-color: #D2AEEC;}
 #sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif;}
+
+
+
+@media (max-width: 768px){
+    .row#flyer {
+    padding: 10px 0px 0px 90px;}
+}
