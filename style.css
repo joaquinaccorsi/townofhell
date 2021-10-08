@@ -27,6 +27,24 @@ h5 {font-size: 60px;}
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
 section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;}
+.carousel-indicators [data-bs-target]{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 6px;
+    padding: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #D2AEEC;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+}
 section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
