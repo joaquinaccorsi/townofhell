@@ -34,6 +34,7 @@ vertical-align: bottom;}
 h4 {font-size: 25px; font-family:'Montserrat', sans-serif ; color:white;padding-top: 10px;font-weight: 300;}
 
 h5 {font-size: 60px;}
+p {font-family:'Montserrat', sans-serif ;}
 
 
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
@@ -60,6 +61,7 @@ div.carousel-item>img { height: 390px;width: 62%; border: 3px solid #D2AEEC;marg
 .carousel-control-prev-icon,
 .carousel-control-next-icon {background-color: transparent; background-image: none;}
 section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
+section#releases 
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 .team-member h4 {font-size: large;}
@@ -72,7 +74,7 @@ footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;pad
 li div.timeline-image {background-color: #D2AEEC;}
 #sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif;}
 
-
+/* RESPONSIVE */
 
 @media (max-width: 768px){
     .row#flyer {
@@ -81,3 +83,6 @@ li div.timeline-image {background-color: #D2AEEC;}
     .btn {height: 100px;width: 100px;}
 
 }
+
+/* HOVER */
+a.nav-link:hover {color:#F8C347 ;}
