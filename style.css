@@ -41,6 +41,7 @@ p {font-family:'Montserrat', sans-serif ;}
 
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
 section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
+section#residents h2 {color: #D2AEEC;text-transform: lowercase;}
 div.carousel-item>img { height: 390px;width: 62%; border: 3px solid #D2AEEC;margin: 30px 0px 70px 260px;}
 .carousel-indicators [data-bs-target]{
     box-sizing: content-box;
@@ -78,7 +79,7 @@ section#contact .section-heading {color: #D2AEEC;}
 footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #D2AEEC;}
 .masthead {background-color: #D2AEEC; display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;}
 .timeline h4 {color: black;}
-li div.timeline-image {background-color: #D2AEEC;}
+
 #sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif; color: white;}
 footer ul>h3 {font-size: 20px; font-weight: 300;}
 footer .fab {font-weight: 400;
@@ -88,7 +89,7 @@ footer .fab {font-weight: 400;
 
 section#releases .col-sm-4#ep {background-color: white ;}
 section#releases .col-sm-4#releasescol {background-color: white;}
-section#releases .col-sm-4 {margin: 100px 0px 0px 100px}
+section#releases .col-sm-4 {margin: 20px 90px 0px 100px}
 section#releases h2 {margin-top: 10px; font-size: 60px; color: #D2AEEC;}
 section#releases .col-sm-12 {margin: 20px;} 
 a {background-color: none;}
@@ -101,6 +102,10 @@ div#offcanvasbody ul.social-buttons li a{background-color:white; color:#D2AEEC}
     padding: 10px 0px 0px 90px;}
     div.carousel-item>img {height: 280px;margin: 50px 0px 70px 0px; width: 100%;}
     .btn {height: 100px;width: 100px;}
+    section#releases .col-sm-4#releasescol {margin:20px 0px 0px 0px}
+    section#releases .col-sm-4#ep {margin: 20px 0px}
+    .timeline>li .timeline-image {margin-left: 120px;}
+
 
 }
 
