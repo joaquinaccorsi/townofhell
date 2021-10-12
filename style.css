@@ -20,8 +20,8 @@ div.offcanvas-header>img {height: 80px;width: 80px;}
 .offcanvas-body {background-color: white;}
 .offcanvas-body h2 {font-size: 45px; font-weight: bold;}
 .offcanvas-body h3 {font-weight: medium;font-style: italic;font-size: 45px;}
-div.offcanvas-body>div.row>div.col-6>img {height: 170px; width: 280px;}
-div.offcanvas-body>div.row>div.col-6>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
+div.offcanvas-body>div.row>div.col-sm-6>img {height: 170px; width: 280px;}
+div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
 ul.social-buttons li a{font-size: 20px;
 line-height: 40px;
 display: block;
@@ -102,16 +102,12 @@ section#releases .col-sm-4#ep {background-color: white ;}
 section#releases .col-sm-4#releasescol {background-color: white;}
 section#releases .col-sm-4 {margin: 20px 90px 0px 100px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
-section#releases .col-sm-12 {margin: 20px;} 
+section#releases .col-sm-12 {margin: 0px;} 
 a {background-color: none;}
 .timeline>li .timeline-image {background-color: #F8C347; border: #D2AEEC;}
 div#offcanvasbody ul.social-buttons li a{background-color:white; color:#D2AEEC; }
 
 
-div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-instagram,
-div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-linkedin,
-div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-twitter,
-div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-soundcloud {font-size: 45px;}
 
 /* RESPONSIVE */
 
