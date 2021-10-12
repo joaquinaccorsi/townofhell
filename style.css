@@ -18,9 +18,10 @@ div.offcanvas-header>img {height: 80px;width: 80px;}
 .offcanvas-header h3 {font-size: 40px; font-style: italic;}
 
 .offcanvas-body {background-color: white;}
-
-div.offcanvas-body>div.row>div.col-sm-6>img {height: 170px; width: 280px;}
-div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
+.offcanvas-body h2 {font-size: 45px; font-weight: bold;}
+.offcanvas-body h3 {font-weight: medium;font-style: italic;font-size: 45px;}
+div.offcanvas-body>div.row>div.col-6>img {height: 170px; width: 280px;}
+div.offcanvas-body>div.row>div.col-6>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
 ul.social-buttons li a{font-size: 20px;
 line-height: 40px;
 display: block;
@@ -79,7 +80,8 @@ section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Mont
 section#eventos h2 {color:#D2AEEC ;font-size: 80px; font-weight: 600;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 .team-member h4 {font-size: large;}
-.team-member img {height: 200px;width: 200px; border: 2px solid white;}
+.team-member img.rounded-circle {height: 200px;width: 200px; border: 2px solid white; margin:0px 0px 0px 38px ;}
+.team-member img { width: 40px;height: 41px; border: none;}
 li.list-inline-item+
 .timeline-image img {height: 160px;width: 180px; border-radius: 180px;padding: auto;}
 section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #ffffff;}
@@ -106,10 +108,10 @@ a {background-color: none;}
 div#offcanvasbody ul.social-buttons li a{background-color:white; color:#D2AEEC; }
 
 
-div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li i.fa-instagram,
-div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li i.fa-linkedin,
-div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li i.fa-twitter,
-div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li i.fa-soundcloud {font-size: 45px;}
+div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-instagram,
+div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-linkedin,
+div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-twitter,
+div.offcanvas-body>div.row>div.col-6>ul.social-buttons li i.fa-soundcloud {font-size: 45px;}
 
 /* RESPONSIVE */
 
