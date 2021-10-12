@@ -7,11 +7,13 @@ div.col-sm-12>img { height: 160px;width: 160px;border:2px solid white}
 .row#rowresidents{padding: 70px 0px 70px 0px;}
 
 .offcanvas-top {height: 90vh;}
+#mainNav .navbar-toggler {background-color: #F8C347;}
 
 .offcanvas-header {background-color: #D2AEEC; text-align: center;}
 div.offcanvas-header>img {height: 80px;width: 80px;}
 .offcanvas-body {background-color: white;}
 div.offcanvas-body>div.row>div.col-sm-6>img {height: 170px; width: 280px;}
+div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
 ul.social-buttons li a{font-size: 20px;
 line-height: 40px;
 display: block;
@@ -61,28 +63,59 @@ div.carousel-item>img { height: 390px;width: 62%; border: 3px solid #D2AEEC;marg
 .carousel-control-prev-icon,
 .carousel-control-next-icon {background-color: transparent; background-image: none;}
 section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
-section#releases 
-section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
+
+
+section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: white;}
+section#eventos h2 {color:#D2AEEC ;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 .team-member h4 {font-size: large;}
 .team-member img {height: 200px;width: 200px; border: 2px solid white;}
+li.list-inline-item+
 .timeline-image img {height: 160px;width: 180px; border-radius: 180px;padding: auto;}
 section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #ffffff;}
+section#contact h2 {color: #D2AEEC;}
+section#contact .section-heading {color: #D2AEEC;}
 footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #D2AEEC;}
 .masthead {background-color: #D2AEEC; display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;}
 .timeline h4 {color: black;}
 li div.timeline-image {background-color: #D2AEEC;}
-#sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif;}
+#sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif; color: white;}
+footer ul>h3 {font-size: 20px; font-weight: 300;}
+footer .fab {font-weight: 400;
+    font-size: 42px;
+    color: white;
+}
 
+section#releases .col-sm-4#ep {background-color: white ;}
+section#releases .col-sm-4#releasescol {background-color: white;}
+section#releases .col-sm-4 {margin: 100px 0px 0px 100px}
+section#releases h2 {margin-top: 10px; font-size: 60px; color: #D2AEEC;}
+section#releases .col-sm-12 {margin: 20px;} 
+a {background-color: none;}
+.timeline>li .timeline-image {background-color: #F8C347; border: #D2AEEC;}
+div#offcanvasbody ul.social-buttons li a{background-color:white; color:#D2AEEC}
 /* RESPONSIVE */
 
 @media (max-width: 768px){
     .row#flyer {
     padding: 10px 0px 0px 90px;}
-    div.carousel-item>img {height: 280px;margin: 30px 0px 70px 60px;}
+    div.carousel-item>img {height: 280px;margin: 50px 0px 70px 0px; width: 100%;}
     .btn {height: 100px;width: 100px;}
 
 }
 
 /* HOVER */
-a.nav-link:hover {color:#F8C347 ;}
+a.nav-link:hover {color:#F8C347; transition: 0,4s;}
+#sendMessageButton:hover{transition: 0,8s; color: #F8C347;}
+.fa-instagram:hover,
+.fa-soundcloud:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.btn:hover {transition: 0.4s;
+    color: #F8C347;
+}
+a:hover {transition: 0,4s;
+color:#D2AEEC ;background-color: none;}
+a::selection{background-color: #D2AEEC;}
+ul.social-buttons li a:hover {background-color:#D2AEEC;}
+#mainNav .navbar-toggler {transition: 0,4s;color: white;}
