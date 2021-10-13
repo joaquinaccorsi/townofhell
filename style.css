@@ -20,7 +20,7 @@ div.offcanvas-header>img {height: 80px;width: 80px;}
 .offcanvas-body {background-color: white;}
 .offcanvas-body h2 {font-size: 45px; font-weight: bold;}
 .offcanvas-body h3 {font-weight: medium;font-style: italic;font-size: 45px;}
-div.offcanvas-body>div.row>div.col-sm-6>img {height: 170px; width: 280px;}
+div.offcanvas-body>div.row>div.col-sm-6>img {height: 270px; width: 480px;}
 div.offcanvas-body>div.row>div.col-sm-6>img#sc,
 div.offcanvas-body>div.row>div.col-sm-6>img#yt {width: 80px;height: 80px;padding: 20px 0px 0px 10px}
 div.offcanvas-body>div.row>div.col-sm-6#colsc {border-left:10px solid white;}
@@ -37,6 +37,7 @@ color: #fff;
 border-radius: 15px;
 outline: #D2AEEC;
 background-color: #D2AEEC;Margin: 5px 10px 0px 22px;}
+ul.social-buttons{ margin: 10px 0px 0px 140px;}
 .fa-instagram,
 .fa-linkedin,
 .fa-twitter,
