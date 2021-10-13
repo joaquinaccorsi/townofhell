@@ -21,6 +21,11 @@ div.offcanvas-header>img {height: 80px;width: 80px;}
 .offcanvas-body h2 {font-size: 45px; font-weight: bold;}
 .offcanvas-body h3 {font-weight: medium;font-style: italic;font-size: 45px;}
 div.offcanvas-body>div.row>div.col-sm-6>img {height: 170px; width: 280px;}
+div.offcanvas-body>div.row>div.col-sm-6>img#sc,
+div.offcanvas-body>div.row>div.col-sm-6>img#yt {width: 80px;height: 80px;padding: 20px 0px 0px 10px}
+div.offcanvas-body>div.row>div.col-sm-6#colsc {border-left:10px solid white;}
+div.offcanvas-body>div.row>div.col-sm-6#colsc,
+div.offcanvas-body>div.row>div.col-sm-6#colyt {background-color: #D2AEEC;margin: 30px 0px 0px 0px;height: 270px;}
 div.offcanvas-body>div.row>div.col-sm-6>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
 ul.social-buttons li a{font-size: 20px;
 line-height: 40px;
