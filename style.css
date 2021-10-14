@@ -4,7 +4,7 @@
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-4>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:10px 0px 10px 0px}
+div.col-sm-4>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:10px 0px 10px 23px}
 .row#flyer {padding: 10px 0px 30px 170px;}
 .row#rowresidents{padding: 70px 0px 70px 0px;}
 
@@ -39,7 +39,8 @@ div.row>div.col-sm-6>iframe {height: 150px; width: 150px; border: white solid 5p
 
 
 div.row>div.col-sm-6>iframe#hellcast {margin: 0px 0px 0px 0px;}
-div.row>div.col-sm-6>h5 {font: 300;font-size: 20px;color: white; margin:30px 0px 120px 0px;}
+div.row>div.col-sm-6>h5 {font-weight: 300;font-size: 20px;color: white; margin:30px 0px 120px 0px;}
+div.row>div.col-sm-6>h5>strong {font-weight: 500;}
 h6 {font-weight: 500; font-family:'Montserrat', sans-serif;margin-top: 30px ; margin-bottom: 15px;font-size: 20px;background-color: #F8C347;color: black;}
 div.offcanvas-body>div.row>div.col-sm-4>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
 ul.social-buttons li a{font-size: 20px;
@@ -100,9 +101,11 @@ section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Mon
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: white;}
 section#eventos h2 {color:#D2AEEC ;font-size: 80px; font-weight: 600;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
-.team-member h4 {font-size: large;}
+.team-member h4 {font-size: large; margin: 0px 0px 0px 28px;}
+.team-member p {margin: 0px 0px 0px 28px;}
 .team-member img.rounded-circle {height: 200px;width: 200px; border: 2px solid white; margin:0px 0px 0px 38px ;}
-.team-member img { width: 40px;height: 41px; border: none;}
+.team-member img { width: 40px;height: 40px; border: none; margin: 0px 0px 0px 0px;}
+.team-member ul.social-buttons {margin: 0px 0px 0px 10px;}
 li.list-inline-item+
 .timeline-image img {height: 160px;width: 180px; border-radius: 180px;padding: auto;}
 section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #ffffff;}
@@ -114,19 +117,17 @@ footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;pad
 
 #sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif; color: white;}
 footer ul>h3 {font-size: 20px; font-weight: 300;}
-footer .fab {font-weight: 400;
-    font-size: 42px;
-    color: white;
-}
+footer img {font-weight: 400;font-size: 42px;
+color: white;}
 
 section#releases .col-sm-4#ep {background-color: white ;border-left: 25px solid #D2AEEC;}
 section#releases .col-sm-4#releasescol {background-color: white;}
 section#releases .col-sm-4 {margin: 20px 90px 0px 100px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
 section#releases .col-sm-4 {margin: 0px;}
-section#releases .col>h3 {font-family: 'Montserrat', sans-serif; margin: 20px 15px 0px 40px;font-size: 13px; font-style: italic; font-weight: 500;}
+section#releases .col>h3 {font-family: 'Montserrat', sans-serif; margin: 70px 15px 0px 40px;font-size: 13px; font-style: italic; font-weight: 700;}
 section#releases .col>h3>strong {font-style: normal;}
-section#releases .col>p {font-family: 'Montserrat', sans-serif;margin-top: 17px;line-height: 15px;text-align: start;margin-left: 30px;}
+section#releases .col>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 50px;}
 
 
 a {background-color: none;}
