@@ -12,7 +12,7 @@ div.col-sm-12>img { height: 160px;width: 160px;border:2px solid white}
 
 
 
-.offcanvas-top {height: 90vh;}
+.offcanvas-top {height: auto;}
 #mainNav .navbar-toggler {background-color: #F8C347;}
 
 .offcanvas-header {background-color: #D2AEEC; text-align: center;}
@@ -24,15 +24,22 @@ div.offcanvas-header>img {height: 80px;width: 80px;}
 .offcanvas-body {background-color: white;}
 .offcanvas-body h2 {font-size: 45px; font-weight: bold; margin-bottom: 1pt;}
 .offcanvas-body h3 {font-weight: medium;font-style: italic;font-size: 23px; margin-top: 1pt;}
-div.offcanvas-body>div.row>div.col-sm-4>img {height: 280px; width: 460px;padding: 8px 0px 0px 0px;}
-div.offcanvas-body>div.row>div.col-sm-4>img#sc,
-div.offcanvas-body>div.row>div.col-sm-4>img#yt {width: 80px;height: 80px;padding: 20px 0px 0px 10px}
+div.col-sm-12>img#sc,
+div.col-sm-12>img#yt {width: 70px;height: 70px;padding: 10px 0px 0px 0px; border: none;}
+
 div.offcanvas-body>div.row>div.col-sm-4#colsc {border-left:20px solid white;}
 div.offcanvas-body>div.row>div.col-sm-4#colsc,
-div.offcanvas-body>div.row>div.col-sm-4#colyt {background-color: #D2AEEC;margin: 30px 0px 0px 0px;height: 270px;}
-div.offcanvas-body>div.row>div.col-sm-4#bio {border-left:20px solid white;}
-div.offcanvas-body>div.row>div.col-sm-4#perfil,
-div.offcanvas-body>div.row>div.col-sm-4#bio {    margin: 10px 0px 70px 5px;height: 270px;}
+div.offcanvas-body>div.row>div.col-sm-4#colyt {background-color: #D2AEEC;margin: 30px 0px 0px 0px;height: 420px;}
+div.offcanvas-body>div.row-justify-content-center>div.col-sm-4#colyt,
+div.offcanvas-body>div.row-justify-content-center>div.col-sm-4#bio {border-left:20px solid white;}
+div.offcanvas-body>div.row-justify-content-center>div.col-sm-4#perfil,
+div.offcanvas-body>div.row-justify-content-center>div.col-sm-4#bio {margin: 10px 0px 70px 5px;height:270px;}
+div.row>div.col-sm-6>iframe {height: 150px; width: 150px; border: white solid 5px;margin: 10px 0px 0px 0px}
+
+
+div.row>div.col-sm-6>iframe#hellcast {margin: 0px 0px 0px 0px;}
+div.row>div.col-sm-6>h5 {font: 400;font-size: 20px;color: white; margin:30px 0px 100px 0px;}
+h6 {font-weight: 500; font-family:'Montserrat', sans-serif;margin-top: 30px ; margin-bottom: 15px;font-size: 20px;background-color: #F8C347;color: black;}
 div.offcanvas-body>div.row>div.col-sm-4>ul.social-buttons li a {background-color: white; color: #D2AEEC;}
 ul.social-buttons li a{font-size: 20px;
 line-height: 40px;
@@ -44,7 +51,7 @@ color: #fff;
 border-radius: 15px;
 outline: #D2AEEC;
 background-color: #D2AEEC;Margin: 5px 10px 0px 22px;}
-ul.social-buttons{ margin: 10px 0px 0px 140px;}
+ul.social-buttons{ margin: 0px 0px 0px 72px;}
 .fa-instagram,
 .fa-linkedin,
 .fa-twitter,
@@ -65,7 +72,7 @@ p {font-family:'Montserrat', sans-serif ;}
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
 section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 
-div.carousel-item>img { height: 390px;width: 62%; border: 3px solid #D2AEEC;margin: 30px 0px 70px 260px;}
+div.carousel-item>img { height: 390px;width: 52%; border: 3px solid #D2AEEC;margin: 30px 0px 70px 260px;}
 .carousel-indicators [data-bs-target]{
     box-sizing: content-box;
     flex: 0 1 auto;
