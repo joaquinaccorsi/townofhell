@@ -125,7 +125,7 @@ section#releases .col-sm-4#releasescol {background-color: white;}
 section#releases .col-sm-4 {margin: 20px 90px 0px 100px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
 section#releases .col-sm-4 {margin: 0px;}
-section#releases .col>h3 {font-family: 'Montserrat', sans-serif; margin: 70px 15px 0px 40px;font-size: 13px; font-style: italic; font-weight: 700;}
+section#releases .col>h3 {font-family: 'Montserrat', sans-serif; margin: 70px 15px 0px 40px;font-size: 16px; font-style: italic; font-weight: 700;}
 section#releases .col>h3>strong {font-style: normal;}
 section#releases .col>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 50px;}
 
@@ -139,6 +139,7 @@ div#offcanvasbody ul.social-buttons li a{background-color:white; color:#D2AEEC; 
 /* RESPONSIVE */
 
 @media (max-width: 768px){
+    body {width: 100%;}
     .row#flyer {
     padding: 10px 0px 0px 90px;}
     div.carousel-item>img {height: 280px;margin: 50px 0px 70px 0px; width: 100%;}
@@ -146,6 +147,7 @@ div#offcanvasbody ul.social-buttons li a{background-color:white; color:#D2AEEC; 
     section#releases .col-sm-4#releasescol {margin:20px 0px 0px 0px}
     section#releases .col-sm-4#ep {margin: 20px 0px}
     .timeline>li .timeline-image {margin-left: 120px;}
+    section#releases .col-sm-4#ep {border: none;}
 
 
 }
