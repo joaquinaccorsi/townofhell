@@ -1,15 +1,16 @@
 .navbar {font-family: 'Montserrat', sans-serif; position:fixed; width: 100%;}
 .navbar img {height: 80px; width: 80px;}
-div.intro-text>img {width: 520px;height: 420px;     width: 520px;
-    height: 420px;
-    padding: 150px 0px 0px 0px;
+div.intro-text>img {width: 420px;
+    height: 320px;
+    
+    padding: 120px 0px 0px 0px;
     margin-top: -130px;
 }
 #residents h2,
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-6>img { height: 180px;width: 220px;border:2px solid #F8C347; margin:0px 0px 5px 110px; margin-right: -45px;}
+div.col-sm-6>img { height: 180px;width: 220px;border:2px solid #F8C347; margin:0px 0px 5px 40px; margin-right: -45px;}
 .row#flyer {padding: 0px 0px 0px 0px;}
 .row#rowresidents{padding: 0px 0px 0px 0px;}
 
@@ -135,9 +136,9 @@ section#releases .col-sm-6#releasescol {background-color: white; flex-wrap: wrap
 section#releases .col-sm-6 {margin: 25px 0px 25px -25px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
 
-section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 60px 0px 0px 0px;font-size: 15px; font-style: italic; font-weight: 700;text-align: start;}
+section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 40px 30px 0px 60px;font-size: 15px; font-style: italic; font-weight: 700;text-align: start;}
 section#releases .col-sm-6>h3>strong {font-style: normal;}
-section#releases .col-sm-6>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 0px;}
+section#releases .col-sm-6>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 60px;}
 section#releases .col-sm-6>a>img {height: 50px; width: 100px; margin-top: -10px;}
 
 
@@ -150,18 +151,24 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
 
 /* RESPONSIVE */
 
-@media(max-width: 425px){
+@media(max-width: 425px)
+{
     body {width: 425px;}
     .row#flyer {
     padding: 10px 0px 0px 90px;}
-    .carousel-item>img {height: 320px;margin: 30px 0px 70px 102px; width: 100%;display: flex;}
+    .carousel-item>img {height: 220px;margin: 30px 0px 70px 102px; width: 100%;display: flex;}
     .carousel-item {display: flex;}
     .btn {display:flex;}
     section#releases .col-sm-4#releasescol {margin:20px 0px 0px 0px}
     section#releases .col-sm-4#ep {margin: 20px 0px; border: none;}
     .timeline>li .timeline-image {margin-left: 120px;}
-    section#releases .col-sm-4#ep {border: none;}
-    .navbar {display: contents;}
+    
+    .navbar {display: contents; width: 425px;}
+    div.intro-text>img {width: 100%px;height: 320px;  
+        
+        padding: 150px 0px 0px 0px;
+        margin-top: -130px;
+    }
  
     nav.navbar.fixed-top {position:relative !important;}
 }
