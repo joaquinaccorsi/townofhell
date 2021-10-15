@@ -43,6 +43,7 @@ div.offcanvas-body>div.row-justify-content-center>div.col-sm-6#colyt
 div.offcanvas-body>div.row-justify-content-center>div.col-sm-6#bio {border-left:10px solid white;}
 div.offcanvas-body>div.row-justify-content-center>div.col-sm-6#perfil,
 div.offcanvas-body>div.row-justify-content-center>div.col-sm-6#bio {margin: 10px 0px 70px 5px;height:270px;}
+
 div.row>div.col-sm-6>iframe {height: 150px; width: 150px; border: white solid 5px;margin: 10px 0px 0px 70px}
 
 
