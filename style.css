@@ -6,6 +6,7 @@ div.intro-text>img {width: 420px;
     padding: 120px 0px 0px 0px;
     margin-top: -130px;
 }
+body {margin:0px;}
 #residents h2,
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
@@ -63,10 +64,7 @@ border-radius: 15px;
 outline: #D2AEEC;
 background-color: #D2AEEC;Margin: 5px 10px 0px 22px;}
 ul.social-buttons{ margin: 0px 0px 0px 72px;}
-.fa-instagram,
-.fa-linkedin,
-.fa-twitter,
-.fa-soundcloud {margin:0px 0px 0px 14px; font-size: 30px;}
+
 .btn {padding-bottom: 20px; height: 60px;
 background-color: #D2AEEC;
 font-weight: 500;
@@ -104,7 +102,9 @@ div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;mar
     opacity: 1;
     transition: opacity .6s ease;
 }
-.carousel-indicators
+img#flechaatras {transform: rotate(-180deg);}
+img#flechaadelante,
+img#flechaatras {height: 50px;width: 100px;}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {background-color: transparent;  height: 15px; width: 10px;}
 section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
@@ -152,27 +152,34 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
 
 /* RESPONSIVE */
 
-@media(max-width: 425px)
-{
+@media (max-width:426px) { 
     body {width: 425px;}
-    .row#flyer {
-    padding: 10px 0px 0px 90px;}
-    .carousel-item>img {height: 220px;margin: 30px 0px 70px 102px; width: 100%;display: flex;}
-    .carousel-item {display: flex;}
-    .btn {display:flex;}
-    section#releases .col-sm-4#releasescol {margin:20px 0px 0px 0px}
-    section#releases .col-sm-4#ep {margin: 20px 0px; border: none;}
-    .timeline>li .timeline-image {margin-left: 120px;}
+    .navbar {width: 425px;}
+    html {margin-left: 42px;}
+    footer ul.social-buttons {margin:0px;}
+    section#contact h2{font-size: 55px;}
+    section#releases .col-sm-6#releasescol,
+    section#releases .col-sm-6#ep {border: none;}
+    div.carousel-item>img {height: 330px;}
+    .carousel-indicators {height: 25px; width: 75%; margin: 0px 0px 0px 40px;}
     
-    .navbar {display: contents; width: 425px;}
-    div.intro-text>img {width: 100%px;height: 320px;  
-        
-        padding: 150px 0px 0px 0px;
-        margin-top: -130px;
-    }
- 
-    nav.navbar.fixed-top {position:relative !important;}
+    .btn {height: 40px;}
+    button>h4 {padding-top: 0px; font-size: 25px;}
+    div.col-sm-6>img#perfil {margin: 0px 0px 5px 50px !important;}
+    ul.social-buttons {margin: 0px 0px 0px 135px;}
+    div.offcanvas-body>div.row>div.col-sm-6#colyt,
+    div.offcanvas-body>div.row>div.col-sm-6#colsc {border: none;}
+    div.offcanvas-body>div.row>div.col-sm-6>h5 {margin: 30px 0px 0px 80px;}
+    div.row>div.col-sm-6>iframe {margin: 10px 0px 0px 54px;}
+    img#flechaadelante,
+    img#flechaatras {width: 75px !important;}
+    img#flechaatras {transform: rotate(-180deg);}
+
+
+
+    
 }
+
 
 /* HOVER */
 a.nav-link:hover {color:#F8C347; transition: 0,4s;}
