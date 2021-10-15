@@ -1,12 +1,12 @@
-.navbar {font-family: 'Montserrat', sans-serif;}
+.navbar {font-family: 'Montserrat', sans-serif; position:fixed; width: 100%;}
 .navbar img {height: 80px; width: 80px;}
 #residents h2,
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-4>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:10px 0px 10px 23px}
-.row#flyer {padding: 10px 0px 30px 170px;}
-.row#rowresidents{padding: 70px 0px 70px 0px;}
+div.col-sm-3>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:0px 0px 0px 0px}
+.row#flyer {padding: 0px 0px 0px 0px;}
+.row#rowresidents{padding: 0px 0px 0px 0px;}
 
 
 
@@ -14,7 +14,7 @@ div.col-sm-4>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:1
 
 
 .offcanvas-top {height: auto;}
-#mainNav .navbar-toggler {background-color: #F8C347;}
+#mainNav .navbar-toggler {background-color: #F8C347;position: relative;}
 
 .offcanvas-header {background-color: #D2AEEC; text-align: center;}
 
@@ -71,10 +71,10 @@ h5 {font-size: 60px;}
 p {font-family:'Montserrat', sans-serif ;}
 
 
-body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif;}
+body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif; flex-wrap: wrap;flex-direction: column;}
 section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 
-div.carousel-item>img { height: 550px;width: 60%; border: 3px solid #D2AEEC;margin: 30px 0px 70px 245px;}
+div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;margin: 40px 0px 0px 0px;}
 .carousel-indicators [data-bs-target]{
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -101,7 +101,7 @@ section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Mon
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: white;}
 section#eventos h2 {color:#D2AEEC ;font-size: 80px; font-weight: 600;}
 section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
-.team-member h4 {font-size: large; margin: 0px 0px 0px 28px;}
+.team-member h4 {font-size: large; margin: 0px 0px 0px 28px;font-weight: bold;}
 .team-member p {margin: 0px 0px 0px 28px;}
 .team-member img.rounded-circle {height: 200px;width: 200px; border: 2px solid white; margin:0px 0px 0px 38px ;}
 .team-member img { width: 40px;height: 40px; border: none; margin: 0px 0px 0px 0px;}
@@ -120,14 +120,14 @@ footer ul>h3 {font-size: 20px; font-weight: 300;}
 footer img {font-weight: 400;font-size: 42px;
 color: white;}
 
-section#releases .col-sm-4#ep {background-color: white ;border-left: 20px solid #D2AEEC;}
-section#releases .col-sm-4#releasescol {background-color: white;}
-section#releases .col-sm-4 {margin: 20px 90px 0px 100px}
+section#releases .col-sm-6#ep {background-color: white ;border-left: 20px solid #D2AEEC;flex-wrap: wrap; flex-direction: column;}
+section#releases .col-sm-6#releasescol {background-color: white; flex-wrap: wrap; flex-direction: column;}
+section#releases .col-sm-3 {margin: 20px 90px 0px 100px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
-section#releases .col-sm-4 {margin: 0px;}
-section#releases .col>h3 {font-family: 'Montserrat', sans-serif; margin: 45px 15px 0px 80px;font-size: 15px; font-style: italic; font-weight: 700;}
-section#releases .col>h3>strong {font-style: normal;}
-section#releases .col>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 80px;}
+
+section#releases .col-sm-3>h3 {font-family: 'Montserrat', sans-serif; margin: 25px 15px 0px 0px;font-size: 15px; font-style: italic; font-weight: 700;}
+section#releases .col-sm-3>h3>strong {font-style: normal;}
+section#releases .col-sm-3>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 0px;}
 
 
 a {background-color: none;}
@@ -138,11 +138,11 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
 
 /* RESPONSIVE */
 
-@media (max-width: 415px){
-    body {width: 100%;}
+@media(max-width: 425px){
+    body {width: 425px;}
     .row#flyer {
     padding: 10px 0px 0px 90px;}
-    .carousel-item>img {height: 220px;margin: 30px 0px 65px 0px; width: 100%;display: flex;}
+    .carousel-item>img {height: 320px;margin: 30px 0px 70px 102px; width: 100%;display: flex;}
     .carousel-item {display: flex;}
     .btn {display:flex;}
     section#releases .col-sm-4#releasescol {margin:20px 0px 0px 0px}
@@ -152,8 +152,6 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     .navbar {display: contents;}
  
     nav.navbar.fixed-top {position:relative !important;}
-
-
 }
 
 /* HOVER */
