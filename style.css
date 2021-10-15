@@ -160,6 +160,9 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     section#contact h2{font-size: 55px;}
     section#releases .col-sm-6#releasescol,
     section#releases .col-sm-6#ep {border: none;}
+    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 75px;}
+    section#releases .col-sm-6>p {margin-left: 140px;}
+    div.col-sm-6>img {margin: 7px 0px 7px -10px;}
     div.carousel-item>img {height: 330px;}
     .carousel-indicators {height: 25px; width: 75%; margin: 0px 0px 0px 40px;}
     
