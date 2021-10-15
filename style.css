@@ -1,11 +1,15 @@
 .navbar {font-family: 'Montserrat', sans-serif; position:fixed; width: 100%;}
 .navbar img {height: 80px; width: 80px;}
-div.intro-text>img {width: 100%; margin-top: 10px;}
+div.intro-text>img {width: 520px;height: 420px;     width: 520px;
+    height: 420px;
+    padding: 150px 0px 0px 0px;
+    margin-top: -130px;
+}
 #residents h2,
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-6>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:20px 0px 20px 0px}
+div.col-sm-6>img { height: 160px;width: 160px;border:2px solid #F8C347; margin:20px 0px 20px 0px; margin-right: -45px;}
 .row#flyer {padding: 0px 0px 0px 0px;}
 .row#rowresidents{padding: 0px 0px 0px 0px;}
 
@@ -100,7 +104,7 @@ div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;mar
 }
 .carousel-indicators
 .carousel-control-prev-icon,
-.carousel-control-next-icon {background-color: transparent; background-image: url(assets/icon/Iconos_arrow-09.svg); height: 15px; width: 10px;}
+.carousel-control-next-icon {background-color: transparent;  height: 15px; width: 10px;}
 section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 
 
@@ -126,12 +130,12 @@ footer ul>h3 {font-size: 20px; font-weight: 300;}
 footer img {font-weight: 400;font-size: 42px;
 color: white;}
 
-section#releases .col-sm-6#ep {background-color: white ;border-left: 20px solid #D2AEEC;flex-wrap: wrap; flex-direction: column;}
-section#releases .col-sm-6#releasescol {background-color: white; flex-wrap: wrap; flex-direction: column;}
+section#releases .col-sm-6#ep {background-color: white ;border-left: 10px solid #D2AEEC;flex-wrap: wrap; flex-direction: column;}
+section#releases .col-sm-6#releasescol {background-color: white; flex-wrap: wrap; flex-direction: column;border-right: #D2AEEC 10px solid;}
 section#releases .col-sm-6 {margin: 25px 0px 25px -25px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
 
-section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 60px 0px 0px 0px;font-size: 15px; font-style: italic; font-weight: 700;}
+section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 60px 0px 0px 0px;font-size: 15px; font-style: italic; font-weight: 700;text-align: start;}
 section#releases .col-sm-6>h3>strong {font-style: normal;}
 section#releases .col-sm-6>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 0px;}
 section#releases .col-sm-6>a>img {height: 50px; width: 100px; margin-top: -10px;}
