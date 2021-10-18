@@ -11,7 +11,7 @@ body {margin:0px;}
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-6>img { height: 180px;width: 220px;border:2px solid #F8C347; margin:0px 0px 5px 40px; margin-right: -45px;}
+div.col-sm-6>img { height: 220px;width: 220px;border:2px solid #F8C347; margin:0px 0px 5px 40px; margin-right: -45px;}
 .row#flyer {padding: 0px 0px 0px 0px;}
 .row#rowresidents{padding: 0px 0px 0px 0px;}
 
@@ -81,19 +81,19 @@ p {font-family:'Montserrat', sans-serif ;}
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif; flex-wrap: wrap;flex-direction: column;}
 section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 
-div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;margin: 40px 0px 0px 0px;}
+div.carousel-item>img { height: 490px; border: 3px solid #D2AEEC;margin: 40px 0px 0px 110px;}
 .carousel-indicators{
     box-sizing: content-box;
     flex: 0 1 auto;
     bottom:20px ;
-    width: 80%;
+    width: 30%;
     height: 28px;
-    padding: 2px;
+    
     margin-right: 0px;
     margin-left: 100px;
     text-indent: -99px;
     cursor: pointer;
-    margin: 0px 0px 0px 93px;
+    
     
     background-clip: padding-box;
     border: 0;
@@ -101,13 +101,14 @@ div.carousel-item>img { height: 620px;width: 100%; border: 3px solid #D2AEEC;mar
     border-bottom: 10px solid transparent;
     opacity: 1;
     transition: opacity .6s ease;
+    margin: 0px 0px 0px 335px;
 }
 img#flechaatras {transform: rotate(-180deg);}
 img#flechaadelante,
 img#flechaatras {height: 50px;width: 100px;}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {background-color: transparent;  height: 15px; width: 10px;}
-section#releases {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
+section#releases {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 
 
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: white;}
@@ -120,7 +121,7 @@ section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserr
 .team-member img { width: 40px;height: 40px; border: none; margin: 0px 0px 0px 0px;}
 .team-member ul.social-buttons {margin: 0px 0px 0px 10px;}
 
-section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #ffffff;}
+section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 section#contact h2 {color: #D2AEEC;font-size: 80px; font-weight: 600;}
 section#contact .section-heading {color: #D2AEEC;}
 footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #D2AEEC;}
@@ -153,20 +154,24 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
 /* RESPONSIVE */
 
 @media (max-width:426px) { 
-    body {width: 425px;}
-    .navbar {width: 425px;}
-    html {margin-left: 42px;}
+    body {width: 426px;}
+    .navbar {width: 426px;}
+   
+    body, html {
+    width: 100%;
+    overflow-x: hidden;}
     footer ul.social-buttons {margin:0px;}
     section#contact h2{font-size: 55px;}
     section#releases .col-sm-6#releasescol,
     section#releases .col-sm-6#ep {border: none;}
-    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 75px;}
+    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 133px;}
     section#releases .col-sm-6>p {margin-left: 140px;}
     div.col-sm-6>img {margin: 7px 0px 7px 33px;}
-    div.carousel-item>img {height: 330px;}
+    div.carousel-item>img {height: 330px;margin: 40px 0px 0px -60px;}
+
     .carousel-indicators {height: 25px; width: 75%; margin: 0px 0px 0px 40px;}
     
-    .btn {height: 40px;}
+    .btn {height: 60px;}
     button>h4 {padding-top: 0px; font-size: 25px;}
     div.col-sm-6>img#perfil {margin: 0px 0px 5px 50px !important;}
     ul.social-buttons {margin: 0px 0px 0px 135px;}
@@ -185,6 +190,68 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     
 }
 
+
+
+@media (max-width:376px) { 
+    body {width: 376px;}
+    .navbar {width: 376px;}
+    html {margin:0px !important;}
+    body, html {width: 100%;overflow-x: hidden;}
+    div.intro-text>img {
+    width: 100%;
+    height: 320px;
+    padding: 30px 0px 0px 0px;
+    margin-top: -130px;
+}
+    footer ul.social-buttons {margin:0px;}
+    section#contact h2{font-size: 55px;}
+    section#releases .col-sm-6#releasescol,
+    section#releases .col-sm-6#ep {border: none;}
+    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 60px;}
+    section#releases .col-sm-6>p {margin-left: 140px;}
+    div.col-sm-6>img {margin: 0px 0px 0px 25px;}
+    div.carousel-item>img {height: 280px;}
+    .carousel-indicators {height: 25px; width: 75%; margin: 0px 0px 0px 40px;}
+    
+    .btn {height: 60px;}
+    button>h4 {padding-top: 0px; font-size: 25px;}
+    div.col-sm-6>img#perfil {margin: 0px 0px 5px -9px !important;}
+    ul.social-buttons {margin: 0px 0px 0px 75px;}
+    div.offcanvas-body>div.row>div.col-sm-6#colyt,
+    div.offcanvas-body>div.row>div.col-sm-6#colsc {border: none;}
+    div.offcanvas-body>div.row>div.col-sm-6>h5 {margin: 0px 0px 0px 0px;}
+    div.row>div.col-sm-6>iframe {margin: 10px 0px 0px 54px;}
+    img#flechaadelante,
+    img#flechaatras {width: 75px !important;}
+    img#flechaatras {transform: rotate(-180deg);}
+    #residents h2 {margin: 0px 0px 0px -27px; font-size: 75px;}
+    #residents h3  {margin: 0px 0px 0px 5px;}
+    section#releases {padding: 0px 0px 0px 0px;}
+    section#releases .col-sm-6#releasescol, section#releases .col-sm-6#ep {
+        border: none;
+        margin: 30px 0px 30px 3px;
+    }
+    section#releases .col-sm-6>a>img {
+        height: 50px;
+        width: 130px;
+        margin-top: 0px;
+        margin: 0px 0px 0px 32px;
+    }
+    section#releases .col-sm-6>p {
+        margin-left: 127px;
+        text-align: justify;
+    }
+    section#eventos h2 {margin: 0px 0px 0px -15px;}
+    .team-member img.rounded-circle {margin: 0px 0px 0px 0px;}
+
+    .team-member h4,
+    .team-member p {margin: 0px 0px 0px 0px;}
+    .team-member ul.social-buttons{ margin: 0px 0px 0px -10px;}
+
+
+
+    
+}
 
 /* HOVER */
 a.nav-link:hover {color:#F8C347; transition: 0,4s;}
