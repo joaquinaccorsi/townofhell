@@ -1,4 +1,4 @@
-.navbar {font-family: 'Montserrat', sans-serif; position:fixed; width: 100%;}
+.navbar {font-family: 'Montserrat', sans-serif; position:fixed; width: 99%; flex-direction: column;}
 .navbar img {height: 80px; width: 80px;}
 div.intro-text>img {width: 420px;
     height: 320px;
@@ -6,7 +6,7 @@ div.intro-text>img {width: 420px;
     padding: 120px 0px 0px 0px;
     margin-top: -130px;
 }
-body {margin:0px;}
+body {margin: 0 auto; width: 99%; flex-direction: column; flex: wrap; padding: 5px; max-width: 1024px; min-width: 375px; box-sizing: border-box;}
 #residents h2,
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
@@ -79,7 +79,7 @@ p {font-family:'Montserrat', sans-serif ;}
 
 
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif; flex-wrap: wrap;flex-direction: column;}
-section#residents {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
+section#residents {display: flex; flex-wrap: wrap;padding: 5px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 
 div.carousel-item>img { height: 490px; border: 3px solid #D2AEEC;margin: 40px 0px 0px 110px;}
 .carousel-indicators{
@@ -111,10 +111,10 @@ img#flechaatras {height: 50px;width: 100px;}
 section#releases {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 
 
-section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: white;}
+section#eventos {display: flex; flex-wrap: wrap;padding: 5px;font-family: 'Montserrat', sans-serif;background-color: white;}
 
 section#eventos h2 {color:#D2AEEC ;font-size: 80px; font-weight: 600;}
-section#team {display: flex;flex-wrap: wrap;padding: 80px 40px 0px 0px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
+section#team {display: flex;flex-wrap: wrap;padding: 0px 0px 0px 0px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 .team-member h4 {font-size: large; margin: 0px 0px 0px 28px;font-weight: bold;}
 .team-member p {margin: 0px 0px 0px 28px;}
 .team-member img.rounded-circle {height: 200px;width: 200px; border: 2px solid white; margin:0px 0px 0px 38px ;}
@@ -151,11 +151,23 @@ ul.social-buttons {margin: 0px 0px 0px 195px;}
 div.intro-lead-in>span {font-weight: 600; font-size: 50px; font-family:'Montserrat', sans-serif ;line-height: 48px;}
 div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserrat', sans-serif; font-style: italic;}
 
+section#residents,
+section#releases,
+section#team,
+section#contact,
+section#eventos,
+footer {box-sizing: border-box;width: 95%; margin-top: 20px; flex-wrap: wrap;flex-direction: column; display: flex; padding: 5px;}
+
+
+div.col-sm-4 {align-self: center !important;}
+
+
+
 /* RESPONSIVE */
 
 @media (max-width:426px) { 
-    body {width: 426px;}
-    .navbar {width: 426px;}
+    body {width: 100%;}
+    .navbar {width: 100%;}
    
     body, html {
     width: 100%;
@@ -183,9 +195,9 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     img#flechaatras {width: 75px !important;}
     img#flechaatras {transform: rotate(-180deg);}
     #residents h2 {margin: 0px 0px 0px -15px;}
-    section#releases {padding: 0px 0px 0px 25px;margin: 60px 0px 30px 3px;}
-    section#eventos {margin: 60px 0px 0px 0px;}
-    section#team {padding: 0px; margin: 60px;}
+    
+   
+    
 
 
 
@@ -195,9 +207,9 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
 
 
 @media (max-width:376px) { 
-    body {width: 376px;}
-    .navbar {width: 376px;}
-    html {margin:0px !important;}
+    body {width: 100%;}
+    .navbar {width: 100%;}
+    html {margin:0px !important; max-width: 1024px; min-width: 375px;}
     body, html {width: 100%;overflow-x: hidden;}
     div.intro-text>img {
     width: 100%;
@@ -245,12 +257,12 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     }
     section#eventos h2 {margin: 3px 0px 0px -15px;}
     .team-member img.rounded-circle {margin: 0px 0px 0px 0px;}
-    section#eventos {margin: 60px 0px 0px 0px;}
+    
 
     .team-member h4,
     .team-member p {margin: 0px 0px 0px 0px;}
     .team-member ul.social-buttons{ margin: 0px 0px 0px -10px;}
-    section#team {padding: 0px;margin: 60px;}
+   
 
 
 
