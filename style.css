@@ -11,7 +11,7 @@ body {margin:0px;}
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-6>img { height: 220px;width: 220px;border:2px solid #F8C347; margin:0px 0px 5px 40px; margin-right: -45px;}
+div.col-sm-6>img { height: 180px;width: 180px;border:2px solid #F8C347; margin:0px 0px 60px 40px; margin-right: -45px;}
 .row#flyer {padding: 0px 0px 0px 0px;}
 .row#rowresidents{padding: 0px 0px 0px 0px;}
 
@@ -114,7 +114,7 @@ section#releases {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans
 section#eventos {display: flex; flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: white;}
 
 section#eventos h2 {color:#D2AEEC ;font-size: 80px; font-weight: 600;}
-section#team {display: flex;flex-wrap: wrap;padding: 25px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
+section#team {display: flex;flex-wrap: wrap;padding: 80px 40px 0px 0px;font-family: 'Montserrat', sans-serif;background-color: #D2AEEC;}
 .team-member h4 {font-size: large; margin: 0px 0px 0px 28px;font-weight: bold;}
 .team-member p {margin: 0px 0px 0px 28px;}
 .team-member img.rounded-circle {height: 200px;width: 200px; border: 2px solid white; margin:0px 0px 0px 38px ;}
@@ -138,10 +138,10 @@ section#releases .col-sm-6#releasescol {background-color: white; flex-wrap: wrap
 section#releases .col-sm-6 {margin: 25px 0px 25px -25px}
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
 
-section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 40px 30px 0px 60px;font-size: 15px; font-style: italic; font-weight: 700;text-align: start;}
+section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 13px 30px 0px 80px;font-size: 15px; font-style: italic; font-weight: 700;text-align: start;width: 130px;}
 section#releases .col-sm-6>h3>strong {font-style: normal;}
-section#releases .col-sm-6>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 60px;}
-section#releases .col-sm-6>a>img {height: 50px; width: 100px; margin-top: -10px;}
+section#releases .col-sm-6>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 80px;}
+section#releases .col-sm-6>a>img {height: 92px; width: 180px; margin-top: -10px;margin: -10px 0px 0px 50px;}
 
 
 a {background-color: none;}
@@ -164,9 +164,9 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     section#contact h2{font-size: 55px;}
     section#releases .col-sm-6#releasescol,
     section#releases .col-sm-6#ep {border: none;}
-    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 133px;}
+    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 120px;}
     section#releases .col-sm-6>p {margin-left: 140px;}
-    div.col-sm-6>img {margin: 7px 0px 7px 33px;}
+    div.col-sm-6>img {margin: 7px 0px 7px 40px;}
     div.carousel-item>img {height: 330px;margin: 40px 0px 0px -60px;}
 
     .carousel-indicators {height: 25px; width: 75%; margin: 0px 0px 0px 40px;}
@@ -183,7 +183,9 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     img#flechaatras {width: 75px !important;}
     img#flechaatras {transform: rotate(-180deg);}
     #residents h2 {margin: 0px 0px 0px -15px;}
-    section#releases {padding: 0px 0px 0px 25px;}
+    section#releases {padding: 0px 0px 0px 25px;margin: 60px 0px 30px 3px;}
+    section#eventos {margin: 60px 0px 0px 0px;}
+    section#team {padding: 0px; margin: 60px;}
 
 
 
@@ -207,7 +209,7 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     section#contact h2{font-size: 55px;}
     section#releases .col-sm-6#releasescol,
     section#releases .col-sm-6#ep {border: none;}
-    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 60px;}
+    section#releases .col-sm-6>h3 {margin: -40px 0px 0px 124px;}
     section#releases .col-sm-6>p {margin-left: 140px;}
     div.col-sm-6>img {margin: 0px 0px 0px 25px;}
     div.carousel-item>img {height: 280px;}
@@ -229,24 +231,26 @@ div.intro-heading>span {font-weight: 300; font-size: 30px;font-family: 'Montserr
     section#releases {padding: 0px 0px 0px 0px;}
     section#releases .col-sm-6#releasescol, section#releases .col-sm-6#ep {
         border: none;
-        margin: 30px 0px 30px 3px;
+        margin: 0px 0px 30px 3px;
     }
     section#releases .col-sm-6>a>img {
-        height: 50px;
-        width: 130px;
+        height: 80px;
+        width: 180px;
         margin-top: 0px;
-        margin: 0px 0px 0px 32px;
+        margin: 0px 0px 90px 28px;
     }
     section#releases .col-sm-6>p {
         margin-left: 127px;
         text-align: justify;
     }
-    section#eventos h2 {margin: 0px 0px 0px -15px;}
+    section#eventos h2 {margin: 3px 0px 0px -15px;}
     .team-member img.rounded-circle {margin: 0px 0px 0px 0px;}
+    section#eventos {margin: 60px 0px 0px 0px;}
 
     .team-member h4,
     .team-member p {margin: 0px 0px 0px 0px;}
     .team-member ul.social-buttons{ margin: 0px 0px 0px -10px;}
+    section#team {padding: 0px;margin: 60px;}
 
 
 
