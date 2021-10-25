@@ -1,4 +1,4 @@
-.navbar {font-family: 'Montserrat', sans-serif; position:fixed; width: 99%; flex-direction: column;}
+.navbar {font-family: 'Montserrat', sans-serif; width: 99%; flex-direction: column; padding-top: 0rem;padding-bottom: 0rem;}
 .navbar img {height: 80px; width: 80px;}
 div.intro-text>img {width: 420px;
     height: 320px;
@@ -81,7 +81,7 @@ p {font-family:'Montserrat', sans-serif ;}
 body {background-color: #D2AEEC;font-family: 'Montserrat', sans-serif; flex-wrap: wrap;flex-direction: column;}
 section#residents {display: flex; flex-wrap: wrap;padding: 5px;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 
-div.carousel-item>img { height: 490px; border: 3px solid #D2AEEC;margin: 40px 0px 0px 110px;}
+div.carousel-item>img { height: 490px; border: 3px solid #D2AEEC;margin: 40px 0px 40px 110px;}
 .carousel-indicators{
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -135,7 +135,7 @@ color: white;}
 
 section#releases .col-sm-6#ep {background-color: white ;border-left: 10px solid #D2AEEC;flex-wrap: wrap; flex-direction: column;}
 section#releases .col-sm-6#releasescol {background-color: white; flex-wrap: wrap; flex-direction: column;border-right: #D2AEEC 10px solid;}
-section#releases .col-sm-6 {margin: 25px 0px 25px -25px}
+section#releases .col-sm-6 {margin: 25px 0px }
 section#releases h2 {margin-top: 10px;font-size: 80px; font-weight: 600; color: #D2AEEC;}
 
 section#releases .col-sm-6>h3 {font-family: 'Montserrat', sans-serif; margin: 13px 30px 0px 80px;font-size: 15px; font-style: italic; font-weight: 700;text-align: start;width: 130px;}
@@ -156,7 +156,7 @@ section#releases,
 section#team,
 section#contact,
 section#eventos,
-footer {box-sizing: border-box;width: 95%; margin-top: 20px; flex-wrap: wrap;flex-direction: column; display: flex; padding: 5px;}
+footer {box-sizing: border-box;width: 100%; margin-top: 20px; flex-wrap: wrap;flex-direction: column; display: flex; padding: 5px; justify-content: center;}
 
 
 div.col-sm-4 {align-self: center !important;}
