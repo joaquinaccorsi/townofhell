@@ -124,11 +124,12 @@ section#team {display: flex;flex-wrap: wrap;padding: 0px 0px 0px 0px;font-family
 section#contact {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;background-color: #ffffff;}
 section#contact h2 {color: #D2AEEC;font-size: 80px; font-weight: 600;}
 section#contact .section-heading {color: #D2AEEC;}
+
 footer {display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;background-color: #D2AEEC;}
 .masthead {background-color: #D2AEEC; display: flex; flex-wrap: wrap;font-family: 'Montserrat', sans-serif;padding: 25px;}
 
 
-#sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif; color: white;}
+#sendMessageButton {width: 100%; font-family:'Montserrat', sans-serif; color: white; font-size: 10px; text-align: center;}
 footer ul>h3 {font-size: 20px; font-weight: 300;}
 footer img {font-weight: 400;font-size: 42px;
 color: white;}
