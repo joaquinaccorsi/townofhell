@@ -139,9 +139,9 @@
  
                               <a href="https://www.instagram.com/sloth_musik" id="instagramb2" target="blank"  onclick="instagram" role="button"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram"></a> <br>
 
-
-                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb"  class="btn  disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
+                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb" target="blank" class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
                               <br><br><br>
+                              
 
 
 
@@ -507,25 +507,26 @@
         </div>
         <script>
             function habilitar(){
-                let instagram1 = document.getElementById("instagramb1");
-                let instagram2 = document.getElementById("instagramb2");
-                let boton = document.getElementById ("freedownloadb");
+                const instagram1 = document.getElementById("instagramb1");
+                const instagram2 = document.getElementById("instagramb2");
+                const boton = document.getElementById ("freedownloadb");
+                
 
                 console.log(instagram1);
                 console.log(instagram2);
                 console.log(boton);
 
-
-
-
-                if(instagram1.onclick){
-                    boton.disable=false;
-                    console.log(instagram1.onclick)
+                if(instagram1.onclick && instagram2.onclick){
+                    boton.disabled = false;
+                   
  
                 }
                 else{
-                    boton.disable=true;
+                    boton.disabled=true;
                 }
+
+                console.log(instagram1.onclick)
+                console.log(instagram2.onclick)
 
 
             }
