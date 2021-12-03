@@ -106,7 +106,7 @@
                                 Free Download
 
                             </p>
-                            <a href="https://drive.google.com/drive/folders/1D5lmz4eUhwza-WOYHN54b0ITODNtqDuR?usp=sharing" id="linkdrive"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="download"></a>
+                            <a href="https://drive.google.com/drive/folders/1D5lmz4eUhwza-WOYHN54b0ITODNtqDuR?usp=sharing" id="linkdrive" target="blank"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
                         </div>
                     </div>
                     <div class="row">
@@ -125,16 +125,45 @@
                 <div class="col-sm-6 text-center"id="ep">
                     <h2 class="text-lowercase section-heading">ep</h2>                
                     <div class="row">
+                        <div class="col-sm-6 align-self-start">
+                            <img src="assets/img/TRACKS/hysteriaep.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+      
+                            <h3>DJ SLOTH <strong>HYSTERIA EP</strong></h3> 
+                           
+                            <p class="text-muted align-self-start">
+                                Release: 2021 <br>
+                                Free Download <br>
+                               <a href="https://www.instagram.com/town.of.hell" id="instagramb1" target="blank" onclick="instagram" role="button"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram" ></a>
+ 
+                              <a href="https://www.instagram.com/sloth_musik" id="instagramb2" target="blank"  onclick="instagram" role="button"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram"></a> <br>
+
+
+                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb"  class="btn  disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
+                              <br><br><br>
+
+
+
+
+                                Seguí a Town of Hell y Dj Sloth en Instagram <br>
+                                para desbloquear "Hysteria Ep" GRATIS!
+
+                          
+
+                            </p>
+                        </div>
                         <div class="col-sm-6" >
                             <img src="assets/img/TRACKS/declines.png" alt="flyer">
                         </div>
-                        <div class="col-sm-6" >
+                        <div class="col-sm-6 ">
                             <h3>DJ SLOTH <br> <strong>DECLINES EP</strong></h3>
                             <p class="text-muted align-self-start">
                                 Release: 2021 <br>
                                 Distrubuidora: Dig Dis
 
                             </p>
+
                         </div>
                     </div>
                 </div>                   
@@ -163,19 +192,8 @@
         </section>
         <section   id="team">
         <div class="container">
-            <div class="row justify-content-aroun">
+            <div class="row justify-content-around">
                 <div class="col-sm-4 align-self-start">
-                    <div class="team-member"><img class="rounded-circle" src="assets/img/team/1.jpg">
-                        <h4>Valentina Sedrán</h4>
-                        <p class="text-muted">Directora de Arte</p>
-                        <ul class="list-inline social-buttons">
-
-                            <li class="list-inline-item"><a href="https://www.instagram.com/vbaelentina/"target="blank"><img src="assets/icon/IG_ICON.svg" alt="ig"></a></li>
-                            <li class="list-inline-item"><a href="#"target="blank"><img src="assets/icon/IN_ICON.svg" alt="linkedin"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 align-self-center">
                     <div class="team-member">
                         <img class="rounded-circle" src="assets/img/team/2.jpg">
                         <h4>Matías Andreu</h4>
@@ -487,22 +505,45 @@
             </div>     
         </div>
         </div>
-     
+        <script>
+            function habilitar(){
+                let instagram1 = document.getElementById("instagramb1");
+                let instagram2 = document.getElementById("instagramb2");
+                let boton = document.getElementById ("freedownloadb");
 
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/agency.js"></script>
+                console.log(instagram1);
+                console.log(instagram2);
+                console.log(boton);
+
+
+
+
+                if(instagram1.onclick){
+                    boton.disable=false;
+                    console.log(instagram1.onclick)
+ 
+                }
+                else{
+                    boton.disable=true;
+                }
+
+
+            }
+                habilitar();
+        </script>
+        
         <script>
              const $form = document.querySelector('#form')
-    const $buttonMailto = document.querySelector('#mailto')
+             const $buttonMailto = document.querySelector('#mailto')
 
-    $form.addEventListener('submit', handleSubmit)
+             $form.addEventListener('submit', handleSubmit)
 
-    function handleSubmit(event) {
-      event.preventDefault()
-      const form = new FormData(this)
-      $buttonMailto.setAttribute('href', `mailto:townofhelltechno@gmail.com?subject=Nombre: ${form.get('name')}  Email: ${form.get('email')} Tema: ${form.get('tipo')} &body=${form.get('message')}`)
-      $buttonMailto.click()
-    }
+             function handleSubmit(event) {
+             event.preventDefault()
+             const form = new FormData(this)
+             $buttonMailto.setAttribute('href', `mailto:townofhelltechno@gmail.com?subject=Nombre: ${form.get('name')}  Email: ${form.get('email')} Tema: ${form.get('tipo')} &body=${form.get('message')}`)
+             $buttonMailto.click()
+            }
 
 
         </script>

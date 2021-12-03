@@ -11,7 +11,7 @@ body {margin: 0 auto; width: 99%; flex-direction: column; flex: wrap; padding: 5
 #residents h3 {margin: 0px 0px 0px 0px;}
 #residents h2 {font-size: 80px; font-weight: 600;color: #D2AEEC}
 #residents h3 {font-size: 20px;}
-div.col-sm-6>img { height: 180px;width: 180px;border:2px solid #F8C347; margin:0px 0px 60px 40px; margin-right: -45px;}
+div.col-sm-6>img { height: 210px;width: 210px;border:2px solid #F8C347; margin:0px 0px 60px 40px; margin-right: -45px;}
 .row#flyer {padding: 0px 0px 0px 0px;}
 .row#rowresidents{padding: 0px 0px 0px 0px;}
 
@@ -144,6 +144,16 @@ section#releases .col-sm-6>h3>strong {font-style: normal;}
 section#releases .col-sm-6>p {font-family: 'Montserrat', sans-serif;margin-top: 5px;line-height: 15px;text-align: start;margin-left: 80px;}
 section#releases .col-sm-6>a>img {height: 92px; width: 180px; margin-top: -10px;margin: -10px 0px 0px 50px;}
 
+img#instagram {height: 40px;margin: 10px 10px 0px 5px;}
+img#freedownload {
+    height: 70px;
+    margin: 0px 0px 0px -30px ;
+}
+
+a#freedownloadb {
+    background: none;
+}
+
 
 a {background-color: none;}
 .img#cartelseeu {width: 150px; width: 150px;}
@@ -179,6 +189,7 @@ div.col-sm-4 {align-self: center !important;}
     section#releases .col-sm-6#ep {border: none;}
     section#releases .col-sm-6>h3 {margin: -40px 0px 0px 120px;}
     section#releases .col-sm-6>p {margin-left: 140px;}
+
     div.col-sm-6>img {margin: 7px 0px 7px 40px;}
     div.carousel-item>img {height: 330px;margin: 40px 0px 0px -60px;}
 
