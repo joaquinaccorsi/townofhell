@@ -154,6 +154,11 @@ a#freedownloadb {
     background: none;
 }
 
+.disable{
+    pointer-events: none;
+    text-decoration: none;
+    color: grey;
+}
 
 a {background-color: none;}
 .img#cartelseeu {width: 150px; width: 150px;}

@@ -136,28 +136,12 @@
                                 Release: 2021 <br>
                                 Free Download <br>
 
-                                <a href="https://www.instagram.com/town.of.hell" onclick="accion('freedownloadb','Activar','https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing')" id="instagramb1" target="blank" onclick="instagram1" role="button"><img src="assets/icon/IG_ICON.svg" alt=""></a> <br>
- 
-                                <a href="https://www.instagram.com/sloth_musik" onclick="accion('freedownloadb','Activar','https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing')" id="instagramb2" target="blank"  onclick="instagram2" role="button"><img src="assets/icon/IG_ICON.svg" alt=""></a> <br>
+                                <a id="selector1" href="https://www.instagram.com/town.of.hell/" target="blank"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram"></a>
+                                
+                                <a id="selector2" href="https://www.instagram.com/sloth_musik/" target="blank"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram" ></a>
+                                <br>
+                                <a id="link" href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" target="blank"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload" ></a>
 
-
-
-                                <a href="#" id="freedownloadb" target="blank" class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt=""></a>
-                             
-                                <br><br><br>
-                              
-
-                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb"  class="btn  disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
-                              <br><br><br>
-
-
-
-                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb"  class="btn  disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
-                              <br><br><br>
-
-
-                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb"  class="btn  disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
-                              <br><br><br>
 
                                 Seguí a Town of Hell y Dj Sloth en Instagram <br>
                                 para desbloquear "Hysteria Ep" GRATIS!
@@ -520,53 +504,13 @@
         </div>
         <script>
 
-            var contador=0;
-            function accion (id_boton, tipo,link){
-            let boton = document.getElementById (id_boton);
-
-            if(tipo=="Activar"){
-		    contador++; 
+            document.getElementById("selector1","selector2").onclick = () => {
+             document.getElementById ("link").classList.toggle("disable")
             }
-           if(contador==2)
-           {
-  	        boton.href = link;
-           }
-           else boton.href="#";
-  
-           console.log(contador);
-        }
+      
 
 
 
-
-            function habilitar(){
-                let instagram1 = document.getElementById("instagramb1");
-                let instagram2 = document.getElementById("instagramb2");
-                let boton = document.getElementById ("freedownloadb");
-
-                console.log(instagram1);
-                console.log(instagram2);
-                console.log(boton);
-
-
-
-
-                if(instagram1.onclick){
-                    boton.disable=false;
-                    console.log(instagram1.onclick)
- 
-                }
-                else{
-                    boton.disable=true;
-                }
-
-
-
-
-
-
-            }
-                habilitar();
 
         </script>
         
