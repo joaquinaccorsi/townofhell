@@ -135,12 +135,14 @@
                             <p class="text-muted align-self-start">
                                 Release: 2021 <br>
                                 Free Download <br>
-                               <a href="https://www.instagram.com/town.of.hell" id="instagramb1" target="blank" onclick="instagram" role="button"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram" ></a>
- 
-                              <a href="https://www.instagram.com/sloth_musik" id="instagramb2" target="blank"  onclick="instagram" role="button"><img src="assets/icon/IG_ICON.svg" alt="" id="instagram"></a> <br>
 
-                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb" target="blank" class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
-                              <br><br><br>
+                                <a href="https://www.instagram.com/town.of.hell" onclick="accion('freedownloadb','Activar','https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing')" id="instagramb1" target="blank" onclick="instagram1" role="button"><img src="assets/icon/IG_ICON.svg" alt=""></a> <br>
+ 
+                                <a href="https://www.instagram.com/sloth_musik" onclick="accion('freedownloadb','Activar','https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing')" id="instagramb2" target="blank"  onclick="instagram2" role="button"><img src="assets/icon/IG_ICON.svg" alt=""></a> <br>
+
+                                <a href="#" id="freedownloadb" target="blank" class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt=""></a>
+                             
+                                <br><br><br>
                               
 
 
@@ -506,31 +508,25 @@
         </div>
         </div>
         <script>
-            function habilitar(){
-                const instagram1 = document.getElementById("instagramb1");
-                const instagram2 = document.getElementById("instagramb2");
-                const boton = document.getElementById ("freedownloadb");
-                
+            var contador=0;
+            function accion (id_boton, tipo,link){
+            let boton = document.getElementById (id_boton);
 
-                console.log(instagram1);
-                console.log(instagram2);
-                console.log(boton);
-
-                if(instagram1.onclick && instagram2.onclick){
-                    boton.disabled = false;
-                   
- 
-                }
-                else{
-                    boton.disabled=true;
-                }
-
-                console.log(instagram1.onclick)
-                console.log(instagram2.onclick)
-
-
+            if(tipo=="Activar"){
+		    contador++; 
             }
-                habilitar();
+           if(contador==2)
+           {
+  	        boton.href = link;
+           }
+           else boton.href="#";
+  
+           console.log(contador);
+        }
+
+
+
+
         </script>
         
         <script>
