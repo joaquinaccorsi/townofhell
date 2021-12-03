@@ -140,10 +140,16 @@
  
                                 <a href="https://www.instagram.com/sloth_musik" onclick="accion('freedownloadb','Activar','https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing')" id="instagramb2" target="blank"  onclick="instagram2" role="button"><img src="assets/icon/IG_ICON.svg" alt=""></a> <br>
 
+<<<<<<< HEAD
                                 <a href="#" id="freedownloadb" target="blank" class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt=""></a>
                              
                                 <br><br><br>
                               
+=======
+
+                              <a href="https://drive.google.com/drive/folders/1y8VWNvo2nmSlXtp6H8lTO_oup0HpNfO5?usp=sharing" id="freedownloadb"  class="btn  disabled" aria-disabled="true" role="button" data-bs-toggle="button"><img src="assets/icon/Iconos_DOWNLOAD-08.svg" alt="" id="freedownload"></a>
+                              <br><br><br>
+>>>>>>> parent of f3936d7 (freedownloadb disabled)
 
 
 
@@ -508,6 +514,7 @@
         </div>
         </div>
         <script>
+<<<<<<< HEAD
             var contador=0;
             function accion (id_boton, tipo,link){
             let boton = document.getElementById (id_boton);
@@ -526,6 +533,29 @@
 
 
 
+=======
+            function habilitar(){
+                let instagram1 = document.getElementById("instagramb1");
+                let instagram2 = document.getElementById("instagramb2");
+                let boton = document.getElementById ("freedownloadb");
+
+                console.log(instagram1);
+                console.log(instagram2);
+                console.log(boton);
+
+
+
+
+                if(instagram1.onclick){
+                    boton.disable=false;
+                    console.log(instagram1.onclick)
+ 
+                }
+                else{
+                    boton.disable=true;
+                }
+
+>>>>>>> parent of f3936d7 (freedownloadb disabled)
 
         </script>
         
